@@ -90,6 +90,10 @@ class Owner {
   }
 }
 
+/**
+ * Link to Owner class
+ * See {@link Owner}
+ */
 const owner1 = new Owner({
   name: "Keily",
   age: 22,
