@@ -1,5 +1,11 @@
 // @ts-check
 
+/**
+ * @file index.js is the homepage for this application
+ * @author fifolio
+ * @see <a href="https://github.com/fifolio"><img src="https://avatars.githubusercontent.com/u/97522852?v=4" style="border-radius: 50%; width: 35px; margin-bottom: -12px; margin-right: 10px;"/><span>Go To GitHub</span></a>
+ */
+
 const { petCounter } = require("./petcounter");
 
 /**
@@ -103,5 +109,4 @@ const owner1 = new Owner({
 
 owner1.printOwner();
 
-
-console.log(petCounter(19, 5))
+console.log(petCounter(19, 5));
