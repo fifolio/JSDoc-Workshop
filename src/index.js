@@ -1,5 +1,7 @@
 // @ts-check
 
+const { petCounter } = require("./petcounter");
+
 /**
  * Desc: This is the Pen Name.
  * @type {String}
@@ -100,3 +102,6 @@ const owner1 = new Owner({
 });
 
 owner1.printOwner();
+
+
+console.log(petCounter(19, 5))
