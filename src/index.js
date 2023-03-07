@@ -24,3 +24,14 @@ const myPetsPrices = [138.4, 522.3, 42.5, 43.23, 99, 75, "hi", true];
  * @type {Array<String>}
  */
 const myPetsNames = ["Alissa", "Vies", "Roda", "Mea"];
+
+/**
+ * Desc: This object store Coco pet details
+ * @type {{id: number, name: string, age: number | number, alive: true}}
+ */
+const pet = {
+  id: 1,
+  name: "Coco",
+  age: 2,
+  alive: true,
+};
