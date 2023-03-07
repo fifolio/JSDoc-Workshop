@@ -3,7 +3,7 @@
 /**
  * @file index.js is the homepage for this application
  * @author fifolio
- * @see <a href="https://github.com/fifolio"><img src="https://avatars.githubusercontent.com/u/97522852?v=4" style="border-radius: 50%; width: 35px; margin-bottom: -12px; margin-right: 10px;"/><span>Go To GitHub</span></a>
+ * @see <a href="https://github.com/fifolio"><img src="https://avatars.githubusercontent.com/u/97522852?v=4" style="border-radius: 50%; width: 35px; margin-bottom: -12px; margin-right: 10px;"/><span><b>Go To GitHub</b></span></a>
  */
 
 const { petCounter } = require("./petcounter");

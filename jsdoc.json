@@ -15,6 +15,7 @@
     "destination": "./jsdoc",
     "recurse": true,
     "template": "./template",
-    "tutorials": "./tutorials"
+    "tutorials": "./tutorials",
+    "readme": "./readme.md"
   }
 }
