@@ -67,3 +67,32 @@ const dog = {
   isMale: false,
   alive: true,
 };
+
+class Owner {
+  /**
+   * Pet owner detail
+   * @param {Object} ownerDetail
+   */
+  constructor(ownerDetail) {
+    /**
+     * @property {string} name
+     * @property {number | string} age
+     */
+    this.name = ownerDetail.name;
+    this.age = ownerDetail.age;
+  }
+  /**
+   * @property {Function} printOwner -> Print out owner information
+   * @return {void}
+   */
+  printOwner() {
+    console.log(`Name is: ${this.name} and age is: ${this.age}`);
+  }
+}
+
+const owner1 = new Owner({
+  name: "Keily",
+  age: 22,
+});
+
+owner1.printOwner();
