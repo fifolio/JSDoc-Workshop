@@ -27,7 +27,7 @@ const myPetsNames = ["Alissa", "Vies", "Roda", "Mea"];
 
 /**
  * Desc: This object store Coco pet details
- * @type {{id: number, name: string, age: number | number, alive: true}}
+ * @type {{id: number, name: string, age: number | number, alive: boolean}}
  */
 const pet = {
   id: 1,
@@ -47,3 +47,23 @@ let caluc = (current, yearOfBirth) => {
 };
 
 console.log(caluc(2023, 1996));
+
+/**
+ * Desc: This is an object includes details with different property types,
+ * @typedef {Object} Dog
+ * @property {Number} id
+ * @property {String} name
+ * @property {Number | String} age -> accept Numbers or Strings
+ * @property {Boolean} isMale
+ * @property {Boolean} [alive] -> optional
+ */
+/**
+ * @type {Dog}
+ */
+const dog = {
+  id: 1,
+  name: "bean",
+  age: 8,
+  isMale: false,
+  alive: true,
+};
