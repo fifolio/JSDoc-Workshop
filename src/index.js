@@ -35,3 +35,15 @@ const pet = {
   age: 2,
   alive: true,
 };
+
+/**
+ * Desc: this function gets the current year and subtract it from the year of birth to return with the age
+ * @param {Number} current -> current year
+ * @param {Number} yearOfBirth -> year of birth
+ * @returns {String} that calculate the age
+ */
+let caluc = (current, yearOfBirth) => {
+  return `${current - yearOfBirth}`;
+};
+
+console.log(caluc(2023, 1996));
