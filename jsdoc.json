@@ -2,8 +2,8 @@
   "plugins": ["plugins/markdown"],
   "recurseDepth": 10,
   "source": {
-    "source": ["src"],
-    "includePattern": ".js$",
+    "include": ["src"],
+    "includePattern": "(.js|.jsx)",
     "excludePattern": "(node_modules/|docs)"
   },
   "templates": {
